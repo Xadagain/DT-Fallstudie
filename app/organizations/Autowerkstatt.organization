@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1" name="Autowerkstatt" description="Autowerkstatt Fallstudie">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="Geschäftsführer_1">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Servicemitarbeiter_Leit">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Geschäftsführer_2">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Servicemitaerbaiter_Mit">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Servicemitarbeiter_Hilfsk">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Werkstattmitarbeiter_Leit">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Werkstattmitarbeiter_Mit_1">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Werkstattmitarbeiter_Mit_2">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Werkstattmitarbeiter_Hilfsk">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="IT Admin_Leit">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="IT Admin_Mit">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Autofahrer">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="Leiter">
+      <displayName>Leiter</displayName>
+    </role>
+    <role name="Mitarbeiter">
+      <displayName>Mitarbeiter</displayName>
+    </role>
+    <role name="HIlfskraft">
+      <displayName>Hilfskraft</displayName>
+    </role>
+    <role name="IT-Administrator">
+      <displayName>IT-Administrator</displayName>
+    </role>
+    <role name="Autofahrer">
+      <displayName>Autofahrer</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="Autowerkstatt">
+      <displayName>Autowerkstatt</displayName>
+    </group>
+    <group name="Geschäftsleitung" parentPath="/Autowerkstatt">
+      <displayName>Geschäftsleitung</displayName>
+    </group>
+    <group name="Service" parentPath="/Autowerkstatt">
+      <displayName>Service</displayName>
+    </group>
+    <group name="Werkstatt" parentPath="/Autowerkstatt">
+      <displayName>Werkstatt</displayName>
+    </group>
+    <group name="IT" parentPath="/Autowerkstatt">
+      <displayName>IT</displayName>
+    </group>
+    <group name="Kunde" parentPath="/Autowerkstatt">
+      <displayName>Kunde</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>Geschäftsführer_1</userName>
+      <roleName>Leiter</roleName>
+      <groupName>Geschäftsleitung</groupName>
+      <groupParentPath>/Autowerkstatt</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Servicemitarbeiter_Leit</userName>
+      <roleName>Leiter</roleName>
+      <groupName>Service</groupName>
+      <groupParentPath>/Autowerkstatt</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Geschäftsführer_2</userName>
+      <roleName>Leiter</roleName>
+      <groupName>Geschäftsleitung</groupName>
+      <groupParentPath>/Autowerkstatt</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Servicemitaerbaiter_Mit</userName>
+      <roleName>Mitarbeiter</roleName>
+      <groupName>Service</groupName>
+      <groupParentPath>/Autowerkstatt</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Servicemitarbeiter_Hilfsk</userName>
+      <roleName>HIlfskraft</roleName>
+      <groupName>Service</groupName>
+      <groupParentPath>/Autowerkstatt</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Werkstattmitarbeiter_Leit</userName>
+      <roleName>Leiter</roleName>
+      <groupName>Werkstatt</groupName>
+      <groupParentPath>/Autowerkstatt</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Werkstattmitarbeiter_Mit_1</userName>
+      <roleName>Mitarbeiter</roleName>
+      <groupName>Werkstatt</groupName>
+      <groupParentPath>/Autowerkstatt</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Werkstattmitarbeiter_Mit_2</userName>
+      <roleName>Mitarbeiter</roleName>
+      <groupName>Werkstatt</groupName>
+      <groupParentPath>/Autowerkstatt</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Werkstattmitarbeiter_Hilfsk</userName>
+      <roleName>HIlfskraft</roleName>
+      <groupName>Werkstatt</groupName>
+      <groupParentPath>/Autowerkstatt</groupParentPath>
+    </membership>
+    <membership>
+      <userName>IT Admin_Leit</userName>
+      <roleName>Leiter</roleName>
+      <groupName>IT</groupName>
+      <groupParentPath>/Autowerkstatt</groupParentPath>
+    </membership>
+    <membership>
+      <userName>IT Admin_Mit</userName>
+      <roleName>Mitarbeiter</roleName>
+      <groupName>IT</groupName>
+      <groupParentPath>/Autowerkstatt</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Autofahrer</userName>
+      <roleName>Autofahrer</roleName>
+      <groupName>Kunde</groupName>
+      <groupParentPath>/Autowerkstatt</groupParentPath>
+    </membership>
+  </memberships>
+</organization:Organization>
