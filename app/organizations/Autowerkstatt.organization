@@ -68,7 +68,7 @@
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
     </user>
-    <user userName="Autofahrer">
+    <user userName="Autofahrer_user">
       <personalData/>
       <professionalData/>
       <password encrypted="false">bpm</password>
@@ -180,7 +180,7 @@
       <groupParentPath>/Autowerkstatt</groupParentPath>
     </membership>
     <membership>
-      <userName>Autofahrer</userName>
+      <userName>Autofahrer_user</userName>
       <roleName>Autofahrer</roleName>
       <groupName>Kunde</groupName>
       <groupParentPath>/Autowerkstatt</groupParentPath>
