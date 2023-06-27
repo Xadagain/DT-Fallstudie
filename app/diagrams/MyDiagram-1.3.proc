@@ -385,6 +385,16 @@
             <operator xmi:type="expression:Operator" xmi:id="_s8wscRULEe6iAuJOkDc-3g" type="ASSIGNMENT"/>
           </messageContent>
         </elements>
+        <elements xmi:type="process:Activity" xmi:id="_kZzgABUjEe6iAuJOkDc-3g" name="Step1">
+          <dynamicLabel xmi:type="expression:Expression" xmi:id="_kZ1VMRUjEe6iAuJOkDc-3g" name="" content="" returnTypeFixed="true"/>
+          <dynamicDescription xmi:type="expression:Expression" xmi:id="_kZ1VMBUjEe6iAuJOkDc-3g" name="" content="" returnTypeFixed="true"/>
+          <stepSummary xmi:type="expression:Expression" xmi:id="_kZ1VMhUjEe6iAuJOkDc-3g" name="" content="" returnTypeFixed="true"/>
+          <loopCondition xmi:type="expression:Expression" xmi:id="_kZ1VMxUjEe6iAuJOkDc-3g" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+          <loopMaximum xmi:type="expression:Expression" xmi:id="_kZ1VNBUjEe6iAuJOkDc-3g" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
+          <cardinalityExpression xmi:type="expression:Expression" xmi:id="_kZ1VNRUjEe6iAuJOkDc-3g" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
+          <iteratorExpression xmi:type="expression:Expression" xmi:id="_kZ1VNxUjEe6iAuJOkDc-3g" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
+          <completionCondition xmi:type="expression:Expression" xmi:id="_kZ1VNhUjEe6iAuJOkDc-3g" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+        </elements>
       </elements>
       <formMapping xmi:type="process:FormMapping" xmi:id="_IOaoshT-Ee6iAuJOkDc-3g">
         <targetForm xmi:type="expression:Expression" xmi:id="_IOaosxT-Ee6iAuJOkDc-3g" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
@@ -763,7 +773,11 @@
               <children xmi:type="notation:DecorationNode" xmi:id="_fNkYlhULEe6iAuJOkDc-3g" type="5029">
                 <layoutConstraint xmi:type="notation:Location" xmi:id="_fNkYlxULEe6iAuJOkDc-3g" y="5"/>
               </children>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fNkYlRULEe6iAuJOkDc-3g" x="422" y="110"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fNkYlRULEe6iAuJOkDc-3g" x="422" y="107"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_kZ2jUBUjEe6iAuJOkDc-3g" type="3006" element="_kZzgABUjEe6iAuJOkDc-3g" fontName="Segoe UI" fillColor="14334392" lineColor="10710316">
+              <children xmi:type="notation:DecorationNode" xmi:id="_kZ3KYBUjEe6iAuJOkDc-3g" type="5006"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kZ2jURUjEe6iAuJOkDc-3g" x="441" y="235"/>
             </children>
           </children>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_IOapFBT-Ee6iAuJOkDc-3g"/>
